@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="text-center mb-4">Welcome to the Financial Dashboard 💰</h1>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">About this Project</h2>
+                <p class="card-text">
+                    This project is developed as part of the <strong>Data Science Internship Assignment</strong> for 
+                    <strong>Sustain Farmers</strong>. The primary objective is to create a comprehensive and interactive 
+                    dashboard that helps families analyze their financial health and spending patterns.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Key Features</h3>
+                        <ul class="list-unstyled">
+                            <li>✨ Predict Financial Health Score</li>
+                            <li>📊 Interactive Visualizations</li>
+                            <li>📈 Data-driven Insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Tools & Techniques</h3>
+                        <ul class="list-unstyled">
+                            <li>🐍 Python</li>
+                            <li>🌐 Flask Framework</li>
+                            <li>🤖 Machine Learning Models</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">About Sustain Farmers</h3>
+                        <p class="card-text">
+                            Dedicated to promoting sustainable farming practices and empowering communities through 
+                            innovative data-driven solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Getting Started</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Prediction</h5>
+                                <p class="card-text">Predict your financial health score using our machine learning model.</p>
+                                <a href="{{ url_for('predict') }}" class="btn btn-primary">Try Prediction</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Visualization</h5>
+                                <p class="card-text">Explore insights through dynamic charts and graphs.</p>
+                                <a href="{{ url_for('visualize') }}" class="btn btn-primary">View Visualizations</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

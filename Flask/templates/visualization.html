@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}Visualizations{% endblock %}
+
+{% block extra_css %}
+<style>
+    .viz-container {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .viz-title {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+    .viz-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .viz-selector {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="text-center mb-4">Financial Data Visualization 📊</h1>
+
+    {% if error %}
+    <div class="alert alert-danger" role="alert">
+        {{ error }}
+    </div>
+    {% else %}
+    <div class="row">
+        <!-- Category Distribution -->
+        <div class="col-md-6">
+            <div class="viz-container">
+                <h3 class="viz-title">Category Distribution</h3>
+                <img src="data:image/png;base64,{{ visualizations.category_dist }}" 
+                     alt="Category Distribution" 
+                     class="viz-img">
+            </div>
+        </div>
+
+        <!-- Family Member Distribution -->
+        <div class="col-md-6">
+            <div class="viz-container">
+                <h3 class="viz-title">Family Member Distribution</h3>
+                <img src="data:image/png;base64,{{ visualizations.member_dist }}" 
+                     alt="Family Member Distribution" 
+                     class="viz-img">
+            </div>
+        </div>
+
+        <!-- Transaction Trends -->
+        <div class="col-12">
+            <div class="viz-container">
+                <h3 class="viz-title">Transaction Trends</h3>
+                <img src="data:image/png;base64,{{ visualizations.transaction_trends }}" 
+                     alt="Transaction Trends" 
+                     class="viz-img">
+            </div>
+        </div>
+
+        <!-- Expenses by Day -->
+        <div class="col-md-6">
+            <div class="viz-container">
+                <h3 class="viz-title">Expenses by Day of Week</h3>
+                <img src="data:image/png;base64,{{ visualizations.expenses_by_day }}" 
+                     alt="Expenses by Day" 
+                     class="viz-img">
+            </div>
+        </div>
+
+        <!-- Category-wise Analysis -->
+        <div class="col-md-6">
+            <div class="viz-container">
+                <h3 class="viz-title">Category-wise Expense Analysis</h3>
+                <img src="data:image/png;base64,{{ visualizations.category_analysis }}" 
+                     alt="Category-wise Analysis" 
+                     class="viz-img">
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
