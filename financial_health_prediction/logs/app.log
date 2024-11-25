@@ -1,0 +1,360 @@
+[2024-11-25 01:32:57,655] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 01:32:57,656] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 01:32:57,684] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:33:00,620] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:33:00,622] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:34:54,915] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 01:34:54,915] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 01:34:54,931] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:34:57,671] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:34:57,674] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:35:12,999] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:35:12] "[33mGET /prediction HTTP/1.1[0m" 404 -
+[2024-11-25 01:35:16,093] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:35:16] "[33mGET /prediction HTTP/1.1[0m" 404 -
+[2024-11-25 01:35:21,138] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:35:21] "GET / HTTP/1.1" 200 -
+[2024-11-25 01:35:21,259] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:35:21] "GET /static/css/style.css HTTP/1.1" 200 -
+[2024-11-25 01:35:21,301] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:35:21] "GET /static/js/main.js HTTP/1.1" 200 -
+[2024-11-25 01:36:10,629] ERROR in app: Error in prediction: Trace type 'indicator' is not compatible with subplot type 'xy'
+at grid position (1, 1)
+
+See the docstring for the specs argument to plotly.subplots.make_subplots
+for more information on subplot types
+[2024-11-25 01:36:10,630] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:36:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 01:37:53,689] ERROR in app: Error in prediction: Trace type 'indicator' is not compatible with subplot type 'xy'
+at grid position (1, 1)
+
+See the docstring for the specs argument to plotly.subplots.make_subplots
+for more information on subplot types
+[2024-11-25 01:37:53,689] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:37:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 01:38:19,944] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\graph_objects\\__init__.py', reloading
+[2024-11-25 01:38:20,054] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\graph_objs\\__init__.py', reloading
+[2024-11-25 01:38:20,084] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\graph_objs\\_indicator.py', reloading
+[2024-11-25 01:38:20,105] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\basedatatypes.py', reloading
+[2024-11-25 01:38:20,347] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\subplots.py', reloading
+[2024-11-25 01:38:20,392] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\graph_objs\\_figure.py', reloading
+[2024-11-25 01:38:21,441] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:27,419] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:27,424] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:27,583] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xmlrpc\\__init__.py', reloading
+[2024-11-25 01:38:27,594] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__phello__\\__init__.py', reloading
+[2024-11-25 01:38:27,628] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\adodbapi\\__init__.py', reloading
+[2024-11-25 01:38:27,642] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\asttokens\\__init__.py', reloading
+[2024-11-25 01:38:27,665] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\asttokens\\line_numbers.py', reloading
+[2024-11-25 01:38:27,691] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\asttokens\\asttokens.py', reloading
+[2024-11-25 01:38:27,752] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\backcall\\__init__.py', reloading
+[2024-11-25 01:38:27,768] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\comm\\__init__.py', reloading
+[2024-11-25 01:38:27,792] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\debugpy\\__init__.py', reloading
+[2024-11-25 01:38:27,818] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\debugpy\\public_api.py', reloading
+[2024-11-25 01:38:27,844] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\executing\\__init__.py', reloading
+[2024-11-25 01:38:27,879] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\executing\\executing.py', reloading
+[2024-11-25 01:38:27,922] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel\\__init__.py', reloading
+[2024-11-25 01:38:27,942] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel\\connect.py', reloading
+[2024-11-25 01:38:27,970] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\__init__.py', reloading
+[2024-11-25 01:38:28,000] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\connect.py', reloading
+[2024-11-25 01:38:28,054] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\launcher.py', reloading
+[2024-11-25 01:38:28,086] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\jedi\\__init__.py', reloading
+[2024-11-25 01:38:28,098] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_core\\__init__.py', reloading
+[2024-11-25 01:38:28,111] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib_inline\\__init__.py', reloading
+[2024-11-25 01:38:28,124] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\packaging\\__init__.py', reloading
+[2024-11-25 01:38:28,150] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\parso\\__init__.py', reloading
+[2024-11-25 01:38:28,176] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\__init__.py', reloading
+[2024-11-25 01:38:28,206] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\application\\__init__.py', reloading
+[2024-11-25 01:38:28,230] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\application\\application.py', reloading
+[2024-11-25 01:38:28,321] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py', reloading
+[2024-11-25 01:38:28,345] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py', reloading
+[2024-11-25 01:38:28,381] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\formatted_text\\html.py', reloading
+[2024-11-25 01:38:28,401] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py', reloading
+[2024-11-25 01:38:28,429] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Roaming\\Python\\Python311\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py', reloading
+[2024-11-25 01:38:28,877] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:33,458] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:33,467] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:33,544] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\chromadb\\api\\models\\Collection.py', reloading
+[2024-11-25 01:38:33,566] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\chromadb\\api\\types.py', reloading
+[2024-11-25 01:38:33,596] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\chromadb\\types.py', reloading
+[2024-11-25 01:38:33,611] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\clang\\__init__.py', reloading
+[2024-11-25 01:38:33,625] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\__init__.py', reloading
+[2024-11-25 01:38:33,658] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\core.py', reloading
+[2024-11-25 01:38:33,695] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\decorators.py', reloading
+[2024-11-25 01:38:33,726] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\exceptions.py', reloading
+[2024-11-25 01:38:33,750] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\formatting.py', reloading
+[2024-11-25 01:38:33,777] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\globals.py', reloading
+[2024-11-25 01:38:33,791] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\parser.py', reloading
+[2024-11-25 01:38:33,836] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\termui.py', reloading
+[2024-11-25 01:38:33,867] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\types.py', reloading
+[2024-11-25 01:38:33,896] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click\\utils.py', reloading
+[2024-11-25 01:38:33,912] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click_didyoumean\\__init__.py', reloading
+[2024-11-25 01:38:33,927] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click_plugins\\__init__.py', reloading
+[2024-11-25 01:38:33,943] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\click_repl\\__init__.py', reloading
+[2024-11-25 01:38:33,959] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\__init__.py', reloading
+[2024-11-25 01:38:33,988] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\anypath.py', reloading
+[2024-11-25 01:38:34,009] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\azure\\azblobclient.py', reloading
+[2024-11-25 01:38:34,035] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\azure\\azblobpath.py', reloading
+[2024-11-25 01:38:34,063] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\cloudpath.py', reloading
+[2024-11-25 01:38:34,097] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\s3\\s3client.py', reloading
+[2024-11-25 01:38:34,134] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\gs\\gspath.py', reloading
+[2024-11-25 01:38:34,158] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\gs\\gsclient.py', reloading
+[2024-11-25 01:38:34,187] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpathlib\\s3\\s3path.py', reloading
+[2024-11-25 01:38:34,203] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpickle\\__init__.py', reloading
+[2024-11-25 01:38:34,234] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cloudpickle\\cloudpickle.py', reloading
+[2024-11-25 01:38:34,267] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\coloredlogs\\__init__.py', reloading
+[2024-11-25 01:38:34,293] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\confection\\__init__.py', reloading
+[2024-11-25 01:38:34,334] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\confection\\util.py', reloading
+[2024-11-25 01:38:34,347] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\configobj\\__init__.py', reloading
+[2024-11-25 01:38:34,395] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\contourpy\\__init__.py', reloading
+[2024-11-25 01:38:34,429] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\contourpy\\_version.py', reloading
+[2024-11-25 01:38:34,453] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\contourpy\\convert.py', reloading
+[2024-11-25 01:38:34,476] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\contourpy\\dechunk.py', reloading
+[2024-11-25 01:38:34,490] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cookiecutter\\__init__.py', reloading
+[2024-11-25 01:38:34,503] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cpuinfo\\__init__.py', reloading
+[2024-11-25 01:38:34,517] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cryptography\\__init__.py', reloading
+[2024-11-25 01:38:34,534] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cryptography\\__about__.py', reloading
+[2024-11-25 01:38:34,893] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:39,586] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:39,590] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:39,656] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\refs\\reference.py', reloading
+[2024-11-25 01:38:39,672] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\refs\\head.py', reloading
+[2024-11-25 01:38:39,691] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\refs\\tag.py', reloading
+[2024-11-25 01:38:39,708] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\refs\\remote.py', reloading
+[2024-11-25 01:38:39,726] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\refs\\log.py', reloading
+[2024-11-25 01:38:39,745] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\diff.py', reloading
+[2024-11-25 01:38:39,767] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\db.py', reloading
+[2024-11-25 01:38:39,798] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\remote.py', reloading
+[2024-11-25 01:38:39,816] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\index\\__init__.py', reloading
+[2024-11-25 01:38:39,840] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\index\\base.py', reloading
+[2024-11-25 01:38:39,862] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\index\\typ.py', reloading
+[2024-11-25 01:38:39,885] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\util.py', reloading
+[2024-11-25 01:38:39,906] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\exc.py', reloading
+[2024-11-25 01:38:39,922] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\types.py', reloading
+[2024-11-25 01:38:39,940] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\compat.py', reloading
+[2024-11-25 01:38:39,963] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\config.py', reloading
+[2024-11-25 01:38:39,978] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\objects\\submodule\\__init__.py', reloading
+[2024-11-25 01:38:39,992] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\__init__.py', reloading
+[2024-11-25 01:38:40,020] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\base.py', reloading
+[2024-11-25 01:38:40,039] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\loose.py', reloading
+[2024-11-25 01:38:40,058] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\mem.py', reloading
+[2024-11-25 01:38:40,077] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\pack.py', reloading
+[2024-11-25 01:38:40,095] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\git.py', reloading
+[2024-11-25 01:38:40,110] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\db\\ref.py', reloading
+[2024-11-25 01:38:40,129] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\cmd.py', reloading
+[2024-11-25 01:38:40,151] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\repo\\__init__.py', reloading
+[2024-11-25 01:38:40,172] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\repo\\base.py', reloading
+[2024-11-25 01:38:40,205] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\git\\util.py', reloading
+[2024-11-25 01:38:40,225] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gitdb\\__init__.py', reloading
+[2024-11-25 01:38:40,237] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gql\\__init__.py', reloading
+[2024-11-25 01:38:40,262] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gql\\client.py', reloading
+[2024-11-25 01:38:40,292] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gql\\graphql_request.py', reloading
+[2024-11-25 01:38:40,305] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\grandalf\\__init__.py', reloading
+[2024-11-25 01:38:40,321] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\__init__.py', reloading
+[2024-11-25 01:38:40,344] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\relay\\__init__.py', reloading
+[2024-11-25 01:38:40,363] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\relay\\id_type.py', reloading
+[2024-11-25 01:38:40,382] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\relay\\mutation.py', reloading
+[2024-11-25 01:38:40,400] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\relay\\connection.py', reloading
+[2024-11-25 01:38:40,417] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\relay\\node.py', reloading
+[2024-11-25 01:38:40,433] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\__init__.py', reloading
+[2024-11-25 01:38:40,456] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\scalars.py', reloading
+[2024-11-25 01:38:40,472] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\uuid.py', reloading
+[2024-11-25 01:38:40,490] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\argument.py', reloading
+[2024-11-25 01:38:40,506] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\base64.py', reloading
+[2024-11-25 01:38:40,529] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\context.py', reloading
+[2024-11-25 01:38:40,545] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\datetime.py', reloading
+[2024-11-25 01:38:40,562] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\decimal.py', reloading
+[2024-11-25 01:38:40,576] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\dynamic.py', reloading
+[2024-11-25 01:38:40,597] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\enum.py', reloading
+[2024-11-25 01:38:40,620] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\field.py', reloading
+[2024-11-25 01:38:40,637] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\graphene\\types\\inputfield.py', reloading
+[2024-11-25 01:38:41,007] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:45,522] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:45,526] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:45,593] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\imblearn\\base.py', reloading
+[2024-11-25 01:38:45,636] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_metadata\\__init__.py', reloading
+[2024-11-25 01:38:45,665] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_metadata\\_meta.py', reloading
+[2024-11-25 01:38:45,682] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_resources\\__init__.py', reloading
+[2024-11-25 01:38:45,703] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_resources\\_common.py', reloading
+[2024-11-25 01:38:45,724] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_resources\\_functional.py', reloading
+[2024-11-25 01:38:45,741] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\importlib_resources\\abc.py', reloading
+[2024-11-25 01:38:45,758] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\ipywidgets\\__init__.py', reloading
+[2024-11-25 01:38:45,774] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\iso639\\__init__.py', reloading
+[2024-11-25 01:38:45,794] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\iso639\\language.py', reloading
+[2024-11-25 01:38:45,810] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\isoduration\\__init__.py', reloading
+[2024-11-25 01:38:45,832] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\isoduration\\formatter\\__init__.py', reloading
+[2024-11-25 01:38:45,847] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\isoduration\\formatter\\exceptions.py', reloading
+[2024-11-25 01:38:45,860] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\isoduration\\parser\\__init__.py', reloading
+[2024-11-25 01:38:45,875] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\isoduration\\parser\\exceptions.py', reloading
+[2024-11-25 01:38:45,904] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\iterative_telemetry\\__init__.py', reloading
+[2024-11-25 01:38:45,919] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+[2024-11-25 01:38:45,939] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+[2024-11-25 01:38:45,954] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+[2024-11-25 01:38:45,974] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+[2024-11-25 01:38:45,995] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+[2024-11-25 01:38:46,012] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+[2024-11-25 01:38:46,031] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+[2024-11-25 01:38:46,059] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+[2024-11-25 01:38:46,090] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+[2024-11-25 01:38:46,110] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+[2024-11-25 01:38:46,135] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+[2024-11-25 01:38:46,179] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\utils.py', reloading
+[2024-11-25 01:38:46,227] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\__init__.py', reloading
+[2024-11-25 01:38:46,262] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\memory.py', reloading
+[2024-11-25 01:38:46,288] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\logger.py', reloading
+[2024-11-25 01:38:46,307] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\hashing.py', reloading
+[2024-11-25 01:38:46,334] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\numpy_pickle.py', reloading
+[2024-11-25 01:38:46,357] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\compressor.py', reloading
+[2024-11-25 01:38:46,389] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\parallel.py', reloading
+[2024-11-25 01:38:46,411] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\externals\\loky\\__init__.py', reloading
+[2024-11-25 01:38:46,437] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\joblib\\externals\\loky\\cloudpickle_wrapper.py', reloading
+[2024-11-25 01:38:46,456] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\json5\\__init__.py', reloading
+[2024-11-25 01:38:46,479] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\json5\\lib.py', reloading
+[2024-11-25 01:38:46,496] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\json5\\version.py', reloading
+[2024-11-25 01:38:46,515] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jsonpath\\__init__.py', reloading
+[2024-11-25 01:38:46,529] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jsonschema_specifications\\__init__.py', reloading
+[2024-11-25 01:38:46,546] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jupyterlab\\__init__.py', reloading
+[2024-11-25 01:38:46,559] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jupyterlab_plotly\\__init__.py', reloading
+[2024-11-25 01:38:46,571] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jupyterlab_pygments\\__init__.py', reloading
+[2024-11-25 01:38:46,928] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:51,603] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:51,609] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:51,712] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+[2024-11-25 01:38:51,738] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+[2024-11-25 01:38:51,760] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+[2024-11-25 01:38:51,781] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+[2024-11-25 01:38:51,824] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+[2024-11-25 01:38:51,845] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+[2024-11-25 01:38:51,868] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+[2024-11-25 01:38:51,894] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+[2024-11-25 01:38:51,914] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+[2024-11-25 01:38:51,958] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+[2024-11-25 01:38:51,982] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numexpr\\__init__.py', reloading
+[2024-11-25 01:38:52,100] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+[2024-11-25 01:38:52,635] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\omegaconf\\__init__.py', reloading
+[2024-11-25 01:38:52,655] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\omegaconf\\base.py', reloading
+[2024-11-25 01:38:53,039] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:38:58,658] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:38:58,662] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:38:58,733] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+[2024-11-25 01:38:58,757] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+[2024-11-25 01:38:58,802] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+[2024-11-25 01:38:58,834] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\interpolate\\_pade.py', reloading
+[2024-11-25 01:38:58,856] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+[2024-11-25 01:38:58,879] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\io\\__init__.py', reloading
+[2024-11-25 01:38:58,918] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\__init__.py', reloading
+[2024-11-25 01:38:58,946] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_misc.py', reloading
+[2024-11-25 01:38:59,009] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_basic.py', reloading
+[2024-11-25 01:38:59,046] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp.py', reloading
+[2024-11-25 01:38:59,077] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_lu.py', reloading
+[2024-11-25 01:38:59,111] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_ldl.py', reloading
+[2024-11-25 01:38:59,140] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_cholesky.py', reloading
+[2024-11-25 01:38:59,162] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_qr.py', reloading
+[2024-11-25 01:38:59,194] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_qz.py', reloading
+[2024-11-25 01:38:59,216] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_svd.py', reloading
+[2024-11-25 01:38:59,241] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_schur.py', reloading
+[2024-11-25 01:38:59,262] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_polar.py', reloading
+[2024-11-25 01:38:59,290] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_matfuncs.py', reloading
+[2024-11-25 01:38:59,322] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\blas.py', reloading
+[2024-11-25 01:38:59,359] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\lapack.py', reloading
+[2024-11-25 01:38:59,403] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_special_matrices.py', reloading
+[2024-11-25 01:38:59,440] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_solvers.py', reloading
+[2024-11-25 01:38:59,464] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_procrustes.py', reloading
+[2024-11-25 01:38:59,482] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_sketches.py', reloading
+[2024-11-25 01:38:59,502] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\linalg\\_decomp_cossin.py', reloading
+[2024-11-25 01:38:59,522] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\misc\\__init__.py', reloading
+[2024-11-25 01:38:59,555] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\misc\\_common.py', reloading
+[2024-11-25 01:38:59,578] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+[2024-11-25 01:38:59,603] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+[2024-11-25 01:38:59,628] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+[2024-11-25 01:38:59,653] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+[2024-11-25 01:38:59,690] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+[2024-11-25 01:38:59,722] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+[2024-11-25 01:39:00,202] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:39:05,476] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:39:05,491] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:39:05,588] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\assumptions\\predicates\\calculus.py', reloading
+[2024-11-25 01:39:05,620] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\assumptions\\predicates\\sets.py', reloading
+[2024-11-25 01:39:05,838] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\functions\\__init__.py', reloading
+[2024-11-25 01:39:05,941] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+[2024-11-25 01:39:05,980] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\geometry\\__init__.py', reloading
+[2024-11-25 01:39:06,013] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\geometry\\exceptions.py', reloading
+[2024-11-25 01:39:06,141] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\matrices\\matrices.py', reloading
+[2024-11-25 01:39:06,237] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\matrices\\common.py', reloading
+[2024-11-25 01:39:06,274] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sympy\\matrices\\sparsetools.py', reloading
+[2024-11-25 01:39:06,910] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:39:11,479] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:39:11,483] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:39:11,539] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\visions\\types\\uuid.py', reloading
+[2024-11-25 01:39:11,901] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:39:16,567] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:39:16,572] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:39:26,997] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:39:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-11-25 01:43:22,283] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 01:43:22,284] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 01:43:22,308] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:43:26,689] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:43:26,694] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:49:56,135] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 01:49:56,135] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 01:49:56,155] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:50:00,717] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:50:00,724] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:50:14,938] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+[2024-11-25 01:50:14,942] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+[2024-11-25 01:50:14,946] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[2024-11-25 01:50:15,011] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+[2024-11-25 01:50:15,023] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:50:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-25 01:50:15,205] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:50:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-11-25 01:50:15,247] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:50:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-11-25 01:50:15,386] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:50:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-11-25 01:50:15,410] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:50:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-25 01:50:16,440] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:50:20,733] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:50:20,737] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:50:32,657] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+[2024-11-25 01:50:32,808] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+[2024-11-25 01:50:32,833] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+[2024-11-25 01:50:33,281] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:50:37,706] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:50:37,710] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:52:25,904] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 01:52:25,905] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 01:52:25,925] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 01:52:30,480] WARNING in _internal:  * Debugger is active!
+[2024-11-25 01:52:30,485] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 01:52:30,566] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:52:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-25 01:52:30,708] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:52:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-25 01:52:30,710] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:52:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-25 01:52:30,738] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:52:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-25 01:52:30,755] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:52:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-25 01:53:36,713] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:53:36] "GET / HTTP/1.1" 200 -
+[2024-11-25 01:53:36,757] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:53:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-11-25 01:53:36,823] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:53:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2024-11-25 01:54:13,521] ERROR in app: Error in prediction: Trace type 'indicator' is not compatible with subplot type 'xy'
+at grid position (1, 1)
+
+See the docstring for the specs argument to plotly.subplots.make_subplots
+for more information on subplot types
+[2024-11-25 01:54:13,521] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:54:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 01:54:58,700] ERROR in app: Error in prediction: Trace type 'indicator' is not compatible with subplot type 'xy'
+at grid position (1, 1)
+
+See the docstring for the specs argument to plotly.subplots.make_subplots
+for more information on subplot types
+[2024-11-25 01:54:58,701] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:54:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 01:56:08,545] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 01:56:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-11-25 02:00:05,126] ERROR in app: Error in prediction: Trace type 'indicator' is not compatible with subplot type 'xy'
+at grid position (1, 1)
+
+See the docstring for the specs argument to plotly.subplots.make_subplots
+for more information on subplot types
+[2024-11-25 02:00:05,129] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 02:00:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 02:01:01,388] INFO in _internal:  * Detected change in 'C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py', reloading
+[2024-11-25 02:01:01,978] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 02:01:04,534] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 02:01:04,537] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 02:01:06,583] WARNING in _internal:  * Debugger is active!
+[2024-11-25 02:01:06,589] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 02:01:22,929] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 02:01:22,929] INFO in _internal: [33mPress CTRL+C to quit[0m

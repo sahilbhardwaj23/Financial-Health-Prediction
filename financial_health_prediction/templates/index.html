@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Health Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Financial Health Predictor & Advisor 💰</h1>
+            <p>Enter your financial information below to get your score and personalized recommendations.</p>
+        </header>
+
+        <main>
+            <form action="{{ url_for('predict') }}" method="post" class="prediction-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="number" id="amount" name="amount" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="income">Monthly Income</label>
+                        <input type="number" id="income" name="income" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="savings">Monthly Savings</label>
+                        <input type="number" id="savings" name="savings" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="monthly_expenses">Monthly Expenses</label>
+                        <input type="number" id="monthly_expenses" name="monthly_expenses" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="loan_payments">Monthly Loan Payments</label>
+                        <input type="number" id="loan_payments" name="loan_payments" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="credit_card_spending">Monthly Credit Card Spending</label>
+                        <input type="number" id="credit_card_spending" name="credit_card_spending" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dependents">Number of Dependents</label>
+                        <input type="number" id="dependents" name="dependents" min="0" max="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="financial_goals_met">Financial Goals Met (%)</label>
+                        <input type="range" id="financial_goals_met" name="financial_goals_met" min="0" max="100" value="50">
+                        <span id="goals-value">50%</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="total_members">Total Household Members</label>
+                        <input type="number" id="total_members" name="total_members" min="1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Primary Expense Category</label>
+                        <select id="category" name="category" required>
+                            {% for category in categories %}
+                            <option value="{{ category }}">{{ category }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="day_of_week">Day of Week</label>
+                        <select id="day_of_week" name="day_of_week" required>
+                            {% for day in days %}
+                            <option value="{{ day }}">{{ day }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Analyze Financial Health</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Health Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container results-container">
+        <header>
+            <h1>Your Financial Health Analysis 📊</h1>
+            <a href="{{ url_for('home') }}" class="back-btn">⬅ New Analysis</a>
+        </header>
+
+        <main>
+            <section class="score-section">
+                <h2>Financial Health Score</h2>
+                <div id="gauge-chart"></div>
+                <div class="score-improvement">
+                    <h3>Potential Score Improvement</h3>
+                    <p>+{{ visualizations.total_impact|round(1) }} points by following all recommendations</p>
+                </div>
+            </section>
+
+            <section class="metrics-section">
+                <h2>Financial Health Summary</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <h3>Savings Rate</h3>
+                        <p class="metric-value">{{ ratios.savings_rate|round(1) }}%</p>
+                        <p class="metric-target">Target: 20%</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Debt-to-Income</h3>
+                        <p class="metric-value">{{ ratios.dti_ratio|round(1) }}%</p>
+                        <p class="metric-target">Target: 36%</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Expense Ratio</h3>
+                        <p class="metric-value">{{ ratios.expense_ratio|round(1) }}%</p>
+                        <p class="metric-target">Target: 50%</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>Discretionary Income</h3>
+                        <p class="metric-value">${{ ratios.discretionary_income|round(2) }}</p>
+                        <p class="metric-target">Monthly</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recommendations-section">
+                <h2>Personalized Recommendations</h2>
+                {% for rec in visualizations.recommendations %}
+                <div class="recommendation-card">
+                    <div class="rec-header">
+                        <h3>{{ rec.category }}</h3>
+                        <span class="impact-badge">Impact: +{{ rec.impact|round(1) }} points</span>
+                        <span class="priority-badge {{ rec.priority.lower() }}">{{ rec.priority }} Priority</span>
+                    </div>
+                    <div class="rec-content">
+                        <div class="rec-actions">
+                            <h4>Key Actions:</h4>
+                            <ul>
+                                {% for action in rec.recommendations %}
+                                <li>{{ action }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="rec-metrics">
+                            <h4>Current vs Target:</h4>
+                            <p>Current: {{ rec.current }}</p>
+                            <p>Target: {{ rec.target }}</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: {{ (rec.current|float / rec.target|float * 100)|round }}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Create gauge chart
+        const gaugeData = {{ visualizations.gauge_chart|tojson }};
+        Plotly.newPlot('gauge-chart', [gaugeData], {
+            width: 400,
+            height: 300,
+            margin: { t: 0, b: 0 }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+[2024-11-25 08:00:28,163] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:00:28,259] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 08:00:28,260] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 08:00:28,292] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 08:00:30,054] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:00:30,078] WARNING in _internal:  * Debugger is active!
+[2024-11-25 08:00:30,085] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 08:03:15,810] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:03:15,901] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 08:03:15,903] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 08:03:15,933] INFO in _internal:  * Restarting with watchdog (windowsapi)
+[2024-11-25 08:03:17,619] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:03:17,642] WARNING in _internal:  * Debugger is active!
+[2024-11-25 08:03:17,655] INFO in _internal:  * Debugger PIN: 558-222-581
+[2024-11-25 08:19:54,992] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:19:55,094] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 08:19:55,098] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 08:19:55,102] INFO in _internal:  * Restarting with stat
+[2024-11-25 08:19:56,603] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:19:56,651] WARNING in _internal:  * Debugger is active!
+[2024-11-25 08:19:56,661] INFO in _internal:  * Debugger PIN: 144-201-618
+[2024-11-25 08:20:35,755] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:20:35] "GET / HTTP/1.1" 200 -
+[2024-11-25 08:20:35,929] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:20:35] "GET /static/css/style.css HTTP/1.1" 200 -
+[2024-11-25 08:20:35,965] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:20:35] "GET /static/js/main.js HTTP/1.1" 200 -
+[2024-11-25 08:20:37,288] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:20:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-25 08:21:33,769] ERROR in app: Error in prediction: Error making prediction: 'NoneType' object has no attribute 'predict'
+[2024-11-25 08:21:33,769] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:21:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 08:25:30,140] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:25:30,238] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-25 08:25:30,243] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-25 08:25:30,246] INFO in _internal:  * Restarting with stat
+[2024-11-25 08:25:31,713] ERROR in app: Error loading model: [Errno 2] No such file or directory: 'model/dt_model.pkl'
+[2024-11-25 08:25:31,755] WARNING in _internal:  * Debugger is active!
+[2024-11-25 08:25:31,769] INFO in _internal:  * Debugger PIN: 144-201-618
+[2024-11-25 08:25:36,462] ERROR in app: Error in prediction: Error making prediction: 'NoneType' object has no attribute 'predict'
+[2024-11-25 08:25:36,465] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:25:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-11-25 08:25:42,126] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:25:42] "GET / HTTP/1.1" 200 -
+[2024-11-25 08:25:42,262] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:25:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-11-25 08:25:42,268] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:25:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2024-11-25 08:26:18,651] ERROR in app: Error in prediction: Error making prediction: 'NoneType' object has no attribute 'predict'
+[2024-11-25 08:26:18,654] INFO in _internal: 127.0.0.1 - - [25/Nov/2024 08:26:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
